@@ -1,0 +1,107 @@
+.container-snackbar {
+    width: 1440px;
+    height: 496px;
+}
+
+.form {
+    padding: 36px 924px 230px 156px;
+}
+
+.form label {
+    color: #2e2f42;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+}
+
+.form input[type='number'] {
+    box-sizing: border-box;
+    width: 360px;
+    height: 40px;
+    padding-left: 16px;
+
+    color: #2e2f42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    border-radius: 4px;
+    border: 1px solid #808080;
+    margin-bottom: 16px;
+    transition: border 0.5s ease;
+    outline: none;
+    color: #2e2f42;
+    transition: border 0.5s ease;
+}
+
+.form input[type='number']:hover {
+    border: 1px solid #000;
+}
+
+.form input[type='number']:active {
+    border: 1px solid #4e75ff;
+}
+
+fieldset {
+    box-sizing: border-box;
+    padding: 0;
+    width: 360px;
+    height: 78px;
+    border-radius: 4px;
+    margin: 0;
+    margin-bottom: 24px;
+    outline: none;
+    border: 1px solid #808080;
+}
+
+fieldset:hover {
+    border: 1px solid #000;
+}
+
+legend {
+    margin-left: 28px;
+}
+
+fieldset label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 48px;
+    padding-top: 14px;
+}
+
+.form input[type='radio'] {
+    box-sizing: border-box;
+
+    width: 19px;
+    height: 19px;
+}
+
+.form button {
+    width: 360px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #4e75ff;
+    border: none;
+    cursor: pointer;
+
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    transition: background 0.5s ease;
+}
+
+.form button:hover {
+    background: #6c8cff;
+}

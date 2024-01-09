@@ -1,0 +1,115 @@
+.container-timer {
+    width: 1440px;
+    height: 496px;
+    padding: 36px 929px 316px 156px;
+}
+
+.container-timer input {
+    background: #fff;
+    width: 272px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+
+    box-sizing: border-box;
+    padding-left: 16px;
+    font-family: Montserrat, sans-serif;
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+    transition: border 0.5s ease;
+}
+
+.container-timer input:hover {
+    border: 1px solid #000;
+    outline: none;
+}
+
+.container-timer input:active,
+.container-timer input:focus {
+    outline: none;
+    border: 1px solid #4e75ff;
+}
+
+.container-timer button {
+    display: inline-flex;
+    height: 40px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #cfcfcf;
+
+    color: #989898;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.container-timer button:enabled {
+    background: #4e75ff;
+    color: white;
+}
+
+.container-timer button:enabled:hover {
+    background: #6c8cff;
+    color: white;
+    cursor: pointer;
+}
+
+.timer {
+    display: flex;
+    gap: 24px;
+}
+
+.timer .field {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer .value {
+    color: #2e2f42;
+    /* font-family: Montserrat; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+}
+
+.timer .label {
+    color: #2e2f42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+[data-days],
+[data-hours],
+[data-minutes],
+[data-seconds] {
+    width: 55px;
+    display: inline-block;
+    text-align: center;
+}
+
+.my-icon {
+    background-image: url('../img/x-octagon.png');
+    background-size: cover;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
